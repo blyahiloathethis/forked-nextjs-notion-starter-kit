@@ -3,7 +3,7 @@
 @tailwind utilities;
 .notion,
 .notion *:not(pre):not(code):not(.notion-code):not(.notion-code *) {
-  font-family: var(--font-inter-tight), var(--noto-sans-sc),
+  font-family: var(--font-inter-tight),
     ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
     'Segoe UI', 'Roboto', sans-serif !important;
 }
@@ -24,7 +24,7 @@ html {
 }
 
 body {
-  --notion-font: var(--font-inter-tight), var(--noto-sans-sc), ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+  --notion-font: var(--font-inter-tight), ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
     'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
     'Droid Sans', 'Helvetica Neue', 'Noto Sans', sans-serif;
   font-family: var(--notion-font);
