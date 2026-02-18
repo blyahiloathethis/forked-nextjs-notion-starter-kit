@@ -32,7 +32,7 @@ if (!isServer) {
   bootstrap()
 }
 
-const interTight = inter_Tight({
+const interTight = interTight({
   subsets: ['latin'],
   weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
   style: ['normal', 'italic'],
