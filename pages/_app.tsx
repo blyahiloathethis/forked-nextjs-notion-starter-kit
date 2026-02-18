@@ -18,7 +18,7 @@ import * as Fathom from 'fathom-client'
 import { useRouter } from 'next/router'
 import { posthog } from 'posthog-js'
 import * as React from 'react'
-
+import { Inter_Tight } from 'next/font/google'
 import { bootstrap } from '@/lib/bootstrap-client'
 import {
   fathomConfig,
@@ -32,7 +32,7 @@ if (!isServer) {
   bootstrap()
 }
 
-const interTight = interTight({
+const Inter_Tight = Inter_Tight({
   subsets: ['latin'],
   weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
   style: ['normal', 'italic'],
@@ -70,4 +70,11 @@ export default function App({ Component, pageProps }: AppProps) {
   }, [router.events])
 
   return <Component {...pageProps} />
+}
+
+  return (
+    <main className={interTight.variable}>
+      <Component {...pageProps} />
+    </main>
+  )
 }
