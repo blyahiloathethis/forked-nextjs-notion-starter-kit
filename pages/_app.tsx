@@ -69,9 +69,6 @@ export default function App({ Component, pageProps }: AppProps) {
     }
   }, [router.events])
 
-  return <Component {...pageProps} />
-}
-
   return (
     <main className={interTight.variable}>
       <Component {...pageProps} />
