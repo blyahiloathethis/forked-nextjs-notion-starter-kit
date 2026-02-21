@@ -11,8 +11,7 @@ export default {
       { protocol: 'https', hostname: 'abs.twimg.com' },
       { protocol: 'https', hostname: 'pbs.twimg.com' },
       { protocol: 'https', hostname: 's3.us-west-2.amazonaws.com' },
-      { protocol: 'https', hostname: 'img.notionusercontent.com' },
-      { protocol: 'https', hostname: 's3-us-west-2.amazonaws.com' }
+      { protocol: 'https', hostname: 'img.notionusercontent.com' }
     ],
     formats: ['image/avif', 'image/webp'],
     dangerouslyAllowSVG: true,
