@@ -481,14 +481,18 @@ max-width: 1200px;
   .styles-module__6yw_Ga__footer {
     padding-left: 4vw;
     padding-right: 4vw;
-    margin-left: 4vw !important; } /*Corresponding to Padding*/
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
 }
 
 @media only screen and (max-width: 720px) {
   .styles-module__6yw_Ga__footer {
     padding-left: 4vw;
     padding-right: 4vw;
-    margin-left: 4vw !important; } /*Corresponding to Padding*/
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
 }
 
 .notion-file-icon {
