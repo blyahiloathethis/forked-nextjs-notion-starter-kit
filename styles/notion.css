@@ -223,6 +223,15 @@ max-width: 1200px;
     margin-right: auto !important;
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .notion-page {
+    padding-left: 4vw;
+    padding-right: 4vw;
+    margin-left: auto !important;  /* 4vw → auto */
+    margin-right: auto !important;
+  }
+}
 .notion .notion-page-icon-cover {
   margin-left: 0;
   margin-right: auto;
