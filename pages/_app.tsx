@@ -19,6 +19,7 @@ import { useRouter } from 'next/router'
 import { posthog } from 'posthog-js'
 import * as React from 'react'
 import { Inter_Tight } from 'next/font/google'
+import { Noto_Sans_SC } from 'next/font/google'
 import { bootstrap } from '@/lib/bootstrap-client'
 import {
   fathomConfig,
@@ -38,6 +39,13 @@ const interTight = Inter_Tight({
   style: ['normal', 'italic'],
   display: 'swap',
   variable: '--font-inter-tight'
+})
+
+const notoSansSC = Noto_Sans_SC({
+  weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
+  subsets: ['normal', 'italic'],
+  display: 'swap',
+  variable: '--font-noto-sans-sc',
 })
 
 export default function App({ Component, pageProps }: AppProps) {
@@ -70,7 +78,7 @@ export default function App({ Component, pageProps }: AppProps) {
   }, [router.events])
 
   return (
-    <main className={interTight.variable}>
+    <main className= { `${interTight.variable} ${notoSansSC.variable}` }>
       <Component {...pageProps} />
     </main>
   )
