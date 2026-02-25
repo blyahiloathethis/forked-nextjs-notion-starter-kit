@@ -204,33 +204,25 @@ max-width: 1200px;
   .index-page.notion-page {
     padding-left: 4vw;
     padding-right: 4vw;
-    margin-left: 4vw !important;
+    margin-left: auto !important;  /* 4vw → auto */
+    margin-right: auto !important; /* 이것도 추가 */
   }
-    .notion-page {
+  .notion-page {
     padding-left: 4vw;
     padding-right: 4vw;
-    margin-left: 4vw !important; } /*Corresponding to Padding*/
+    margin-left: auto !important;  /* 4vw → auto */
+    margin-right: auto !important;
+  }
 }
 
 @media only screen and (max-width: 720px) {
   .notion-page {
-    padding-left: 4vw;
-    padding-right: 4vw;
-    margin-left: 4vw !important; } /*Corresponding to Padding*/
-}
-
-@media only screen and (max-width: 600px) {
-  .notion-search-button {
-    display: none !important;
-    padding-left: 4vw;
-    padding-right: 4vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    margin-left: auto !important;  /* 4vw → auto */
+    margin-right: auto !important;
   }
-  .notion-page {
-    padding-left: 4vw;
-    padding-right: 4vw;
-    margin-left: 4vw !important; } /*Corresponding to Padding*/
 }
-
 .notion .notion-page-icon-cover {
   margin-left: 0;
   margin-right: auto;
