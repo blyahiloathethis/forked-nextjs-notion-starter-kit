@@ -205,7 +205,7 @@ max-width: 1200px;
     padding-left: 4vw;
     padding-right: 4vw;
     margin-left: auto !important;  /* 4vw → auto */
-    margin-right: auto !important; /* 이것도 추가 */
+    margin-right: auto !important;
   }
   .notion-page {
     padding-left: 4vw;
