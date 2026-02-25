@@ -43,7 +43,7 @@ const interTight = Inter_Tight({
 
 const notoSansSC = Noto_Sans_SC({
   weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
-  subsets: ['normal', 'italic'],
+  subsets: ['latin'],
   display: 'swap',
   variable: '--font-noto-sans-sc',
 })
