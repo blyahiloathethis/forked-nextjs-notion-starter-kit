@@ -542,3 +542,7 @@ max-width: 1200px;
 .notion-equation.notion-equation-block{
   align-items: center;
 }
+
+.dark-mode .notion-table-of-contents-active-item {
+  color: #EBEBEB !important;
+}
