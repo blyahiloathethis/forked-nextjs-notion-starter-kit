@@ -1,0 +1,24 @@
+{
+  "name": "ß-R199 T/L Archive",
+  "short_name": "ß",
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "type": "image/png",
+      "sizes": "32x32"
+    },
+    {
+      "src": "/favicon-128x128.png",
+      "type": "image/png",
+      "sizes": "128x128"
+    },
+    {
+      "src": "/favicon-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "theme_color": "#262626",
+  "background_color": "#ffffff",
+  "display": "standalone"
+}
